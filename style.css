@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #FEF2BF;
+}
+
+.start {
+    margin: auto auto;
+    background-color: #fff;
+    text-align: center;
+}
+
+.start .start-btn {
+    padding: 10px 30px;
+    font-size: 30px;
+    border: 2px solid #fff;
+    background-color: #011F3F;
+    color: #fff;
+    cursor: pointer;
+}
+
+.start .start-btn:hover {
+    padding: 10px 30px;
+    font-size: 30px;
+    border: 2px solid #011F3F;
+    background-color: #fff;
+    color: #011F3F;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 40px;
+    color: #011F3F;
+    text-align: center;
+    margin: 40px;
+}
+
+.data {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.data div {
+    width: calc(300px - 48px);
+    float: left;
+    border: 1px solid #111;
+    height: 150px;
+    margin: 20px;
+    border: 4px solid #011F3F;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width:1000px) {
+    .data {
+        width: 80% !important;
+    }
+}
+
+
+.green {
+    background-color: green;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.hover-btn {
+    opacity: 0.5;
+}
+
+button {
+    background-color: #011F3F;
+    color: #fff;
+    border: solid 1px #fff;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+    
+.colorChange {
+    background: #011F3F;
+}
+
+.btn {
+    background-color: #011F3F;
+    padding: 10px 30px !important;
+    cursor: pointer;
+}
+
+.pressed {
+    opacity: 0.5;
+}
+
+.display-prop {
+    display: none;
+}
